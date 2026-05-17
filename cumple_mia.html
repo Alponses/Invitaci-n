@@ -370,14 +370,18 @@
     }
 
     .hero-intro {
-      max-width: 350px;
+      max-width: 100%;
       margin: 0 auto 4px;
       font-family: var(--script-font);
-      font-size: clamp(38px, 9.7vw, 50px);
+      font-size: clamp(40px, 10.4vw, 52px);
       font-weight: 700;
-      line-height: 1.08;
+      line-height: .96;
       color: #7d5594;
       text-shadow: 0 2px 0 rgba(255,255,255,.65);
+    }
+
+    .hero-intro span {
+      display: block;
     }
 
     .hero-title {
@@ -984,7 +988,7 @@
     <section class="hero">
       <img class="hero-art" src="imgs/imgi_9_princesas.jpg" alt="Princesas frente a un castillo rosa">
       <div class="hero-content">
-        <p class="hero-intro">Te invito a festejar juntos mis 3 años</p>
+        <p class="hero-intro"><span>Mi Cumpleaños</span><span>Número 3</span></p>
         <h1 class="hero-title">Mia</h1>
       </div>
       <a class="hero-down" href="#mensaje" aria-label="Bajar">
@@ -1006,8 +1010,8 @@
 
     <section class="section date-section reveal" id="fecha">
       <div class="date-panel">
-        <h2 class="section-title">La Fecha</h2>
-        <div class="divider"></div>
+        <h2 class="section-title"></h2>
+       
         <p class="date-line">Domingo, 24 de mayo de 2026</p>
         <div class="countdown" id="countdown">
           <div class="timebox"><b id="days">00</b><span>Días</span></div>
@@ -1030,7 +1034,7 @@
         <h2 class="section-title">Recepción</h2>
         <p class="copy">
           <strong>Salón Cristal</strong><br>
-          San Pedro Huaquilpan, Hgo.<br><br>
+          
           Jiménez 53, Centro San Pedro,<br>
           42192 San Pedro Huaquilpan, Hgo.
         </p>
@@ -1057,7 +1061,7 @@
     <section class="section reveal">
       <h2 class="section-title">En compañía de mis padres</h2>
       <div class="divider"></div>
-      <p class="copy"><strong>Brenda</strong><br><strong>Abel</strong></p>
+      <p class="copy"><strong>Brenda &amp; Abel</strong></p>
       <div class="divider"></div>
       <h2 class="section-title">Y mi hermano</h2>
       <p class="copy"><strong>Aldo</strong></p>
