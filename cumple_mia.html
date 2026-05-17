@@ -601,6 +601,25 @@
       font-weight: 700;
     }
 
+    .family-name {
+      max-width: none;
+      line-height: .95;
+      color: #5a4a61;
+      white-space: nowrap;
+    }
+
+    .family-name,
+    .family-name strong {
+      display: block;
+      font-size: clamp(40px, 10.2vw, 52px) !important;
+      font-weight: 700;
+    }
+
+    .family-section {
+      padding-top: 42px;
+      padding-bottom: 42px;
+    }
+
     .dream-castle-img {
       display: block;
       width: min(100%, 330px);
@@ -841,6 +860,24 @@
       color: #8f4f9b;
     }
 
+    .address-copy {
+      max-width: 300px;
+      font-size: 22px;
+      line-height: 1.36;
+    }
+
+    .venue-name {
+      display: block;
+      margin-bottom: 6px;
+      color: #5a4a61;
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    .venue-address {
+      display: block;
+    }
+
     .dress-code-img {
       display: block;
       width: min(100%, 340px);
@@ -1032,11 +1069,10 @@
     <section class="section soft reveal" id="recepcion">
       <div class="main-card reception-card">
         <h2 class="section-title">Recepción</h2>
-        <p class="copy">
-          <strong>Salón Cristal</strong><br>
-          
-          Jiménez 53, Centro San Pedro,<br>
-          42192 San Pedro Huaquilpan, Hgo.
+        <p class="copy address-copy">
+          <span class="venue-name">Salón Cristal</span>
+          <span class="venue-address">Jiménez 53, C.P. 42192</span>
+          <span class="venue-address">San Pedro Huaquilpan, Hgo.</span>
         </p>
         <img class="venue-img" src="imgs/imgi_5_rep.jpg" alt="Salón Cristal San Pedro Huaquilpan">
         <div class="btn-row">
@@ -1047,7 +1083,7 @@
             </svg>
             <span>14:30 HRS</span>
           </span>
-          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Sal%C3%B3n%20Cristal%2C%20Jim%C3%A9nez%2053%2C%20Centro%20San%20Pedro%2C%2042192%20San%20Pedro%20Huaquilpan%2C%20Hgo." target="_blank" rel="noopener">
+          <a class="btn" href="https://maps.app.goo.gl/Bb8w7EmPWQbrQQdf7" target="_blank" rel="noopener">
             <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M12 21s7-5.5 7-12a7 7 0 0 0-14 0c0 6.5 7 12 7 12Z"></path>
               <circle cx="12" cy="9" r="2.5"></circle>
@@ -1058,13 +1094,13 @@
       </div>
     </section>
 
-    <section class="section reveal">
+    <section class="section reveal family-section">
       <h2 class="section-title">En compañía de mis padres</h2>
       <div class="divider"></div>
-      <p class="copy"><strong>Brenda &amp; Abel</strong></p>
+      <p class="copy family-name"><strong>Brenda &amp; Abel</strong></p>
       <div class="divider"></div>
       <h2 class="section-title">Y mi hermano</h2>
-      <p class="copy"><strong>Aldo</strong></p>
+      <p class="copy family-name"><strong>Aldo</strong></p>
     </section>
 
     <!--
